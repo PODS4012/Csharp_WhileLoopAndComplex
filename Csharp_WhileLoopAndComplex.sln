@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp_WhileLoopAndComplex", "Csharp_WhileLoopAndComplex\Csharp_WhileLoopAndComplex.csproj", "{56CFD634-5DD2-41AB-9220-04EFEC182A20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56CFD634-5DD2-41AB-9220-04EFEC182A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CFD634-5DD2-41AB-9220-04EFEC182A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CFD634-5DD2-41AB-9220-04EFEC182A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CFD634-5DD2-41AB-9220-04EFEC182A20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1174E93-A43E-413F-A92C-7A9041E3D3A9}
+	EndGlobalSection
+EndGlobal
