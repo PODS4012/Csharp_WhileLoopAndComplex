@@ -49,9 +49,18 @@ namespace While_loops_and_complex_logic
                     // Change the next guess range to be half of the maximum range
                     guessMax = guessMax - (guessMax - guessMin) / 2;
                 }
+                // The number is greater than guessMax and less than or equal to max
                 else
                 {
-                    Console.WriteLine($"You anwsered no");
+                    // The new minimum is one above the old maximum
+                    guessMin = guessMax + 1;
+
+                    // Guess the bottom half of the new range
+                    int remainingDifferance = max - guessMax;
+
+                    // Set the guess max to half way between the guessMin and max
+                    // NOTE: Math.Ceiling will round up the remaining difference to 2, if the difference is 1,1
+                    guessMax += (int)Math.Ceiling(remainingDifferance / 2f);
                 }
 
                 // if we only have 2 numbers left, guess one of them
@@ -82,7 +91,6 @@ namespace While_loops_and_complex_logic
 
             // Tell the user how many guessys it took
             Console.WriteLine($"Guessed in { guesses } guesses");
-
             Console.ReadLine();
         }
     }
