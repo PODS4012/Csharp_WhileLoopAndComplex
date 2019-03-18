@@ -10,24 +10,16 @@ namespace Csharp_WhileLoopAndComplex
     {
         static void Main(string[] args)
         {
+            // Create a new instance of our number guesser class
+            var numberGuesser = new NumberGuesser();
 
-            NumberGuesser numberGuesser = new NumberGuesser();
+            // Change the default maximum number to 200
+            numberGuesser.MaximumNumber = 200;
 
-            // Ask user to think of a number between 0 and 100
-            Console.WriteLine("I want you to think of a number between 0 an 100. OK?");
-            Console.ReadLine();
+            // Ask the user to think of a number
+            numberGuesser.InformUser();
 
-            // Definder maximum number the user can guess
-            int max = 100;
 
-            // Keep track of number of guesses
-            int guesses = 0;
-
-            // The start guess from
-            int guessMin = 0;
-
-            // The start guess to (half of the max)
-            int guessMax = max / 2;
 
             while (guessMin != max)
             {
