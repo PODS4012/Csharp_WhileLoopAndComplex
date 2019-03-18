@@ -53,7 +53,7 @@ namespace Csharp_WhileLoopAndComplex
         /// </summary>
         public void InformUser()
         {
-            // Ask user to think of a number between 0 and MaximumNumber
+            // Ask user to think of a number between 0 and MaximumNumber.
             Console.WriteLine($"I want you to think of a number between 0 an { this.MaximumNumber }. OK?");
             Console.ReadLine();
         }
