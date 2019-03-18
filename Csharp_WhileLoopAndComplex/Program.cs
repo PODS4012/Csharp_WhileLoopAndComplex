@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace While_loops_and_complex_logic
+namespace Csharp_WhileLoopAndComplex
 {
     class Program
     {
         static void Main(string[] args)
         {
+
+            NumberGuesser numberGuesser = new NumberGuesser();
+
             // Ask user to think of a number between 0 and 100
             Console.WriteLine("I want you to think of a number between 0 an 100. OK?");
             Console.ReadLine();
